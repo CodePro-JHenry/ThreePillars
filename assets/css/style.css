@@ -11,6 +11,27 @@ h1 {
   font-weight: 900;
 }
 
+.common-css {
+  display: flex;
+  flex-direction: column;
+}
+
+.css-item {
+  margin-bottom: 10px;
+}
+
+.css-property {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: rgb(0, 79, 248);
+  font-family: sans-serif;
+}
+
+.css-description {
+  font-family: sans-serif;
+  color: grey;
+}
+
 @keyframes magic {
   0% {
     background-color: red;
