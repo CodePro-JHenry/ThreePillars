@@ -46,3 +46,55 @@ footer {
     margin: 10px 0px 0px 0px;
     padding: 10px;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+@keyframes magic {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: -200px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.magic {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: magic;
+  animation-duration: 4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
