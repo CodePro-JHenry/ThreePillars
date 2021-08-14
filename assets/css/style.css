@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 300px;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+    border: 4px black solid;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.card a {
+    color: white;
+}
+
+.card-html {
+    background-color: #ff6622;
+}
+
+.card-css {
+    background-color: #3333aa;
+}
+
+.card-javascript {
+    background-color: rgb(211, 200, 46);
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    border: 1px black solid;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+.common-css {
+  display: flex;
+  flex-direction: column;
+}
+
+.css-item {
+  margin-bottom: 10px;
+}
+
+.css-property {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: rgb(0, 79, 248);
+  font-family: sans-serif;
+}
+
+.css-description {
+  font-family: sans-serif;
+  color: grey;
+}
+
+@keyframes magic {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: -200px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.magic {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: magic;
+  animation-duration: 4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
